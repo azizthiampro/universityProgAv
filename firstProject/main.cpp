@@ -7,8 +7,19 @@
 
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    int number;
+    cout << "Veuillez" << endl;
+    
+    cin >> number;
+    
+    cout << "\n le chiffre ecrit est " << number << endl;
+    
+    
+    
     return 0;
 }
